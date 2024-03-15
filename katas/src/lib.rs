@@ -5,6 +5,9 @@ mod sum_of_positive;
 mod string_repeat;
 mod calculate_bmi;
 mod fake_binary;
+mod terminal_game;
+mod personalized_message;
+mod calculate_average;
 
 pub use even_or_odd::even_or_odd_mod;
 pub use opposites_attract::opposites_attract_mod;
@@ -13,3 +16,6 @@ pub use sum_of_positive::sum_of_positive_mod;
 pub use string_repeat::string_repeat_mod;
 pub use calculate_bmi::calculate_bmi_mod;
 pub use fake_binary::fake_binary_mod;
+pub use terminal_game::terminal_game_mod;
+pub use personalized_message::personalized_message_mod;
+pub use calculate_average::find_average_mod;
