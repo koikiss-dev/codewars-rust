@@ -1,6 +1,8 @@
 use katas;
 fn main() {
-    /* let input = [
-        ]; */
-    println!("{}", katas::square_every_digit_mod::square_digits(12345));
+    //let input: Vec<i32> = vec![];
+    println!(
+        "{:?}",
+        katas::vowel_count_mod::get_count("njckjaskuhdkfjhaskdjsl")
+    );
 }
